@@ -1,0 +1,18 @@
+# Dépendances du TP « Reconnaissance de chiffres (CNN) »
+#
+# Installation (PowerShell / terminal) :
+#   pip install -r requirements.txt
+#
+# Notes :
+#   - La version CPU xn'est pas nécessaire si vous avez un GPU NVIDIA
+#     (voir les instructions dans le notebook, Partie 1).
+#   - MNIST est téléchargé automatiquement au 1er lancement du notebook.
+
+torch==2.13.0
+torchvision==0.28.0
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.3
+Pillow>=10.0
+jupyterlab>=4.0
+notebook>=7.0
